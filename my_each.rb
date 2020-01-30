@@ -6,8 +6,3 @@ def my_each(array)
 end
 return array
 end
-array = [1,2,3]
-my_each(array) do |x|
-  puts x
-end 
-end
