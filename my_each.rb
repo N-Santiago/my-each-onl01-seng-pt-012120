@@ -4,10 +4,11 @@ def my_each(array)
   yield array[n]
   n += 1   
 end
+end 
 return array
 end
 array = [1,2,3]
-def my_each(array) do |x|
+my_each(array) do |x|
   puts x
 end 
 end
